@@ -1,19 +1,25 @@
 $(Document).ready(function(){
 
-    const inputTitulo = document.querySelector('#titulo-tarefa');
-    const listaUl = document.querySelector("ul");
+    // const inputTitulo = document.querySelector('#titulo-tarefa');
+    // const listaUl = document.querySelector("ul");
     let listaTarefas =[];
-
+    const inputTitulo = $('#titulo-tarefa');
+    const listaUl = $("ul");
+    
 
 
     $('form').on('submit',function(e){
         e.preventDefault();
 
-        listaTarefas.push(inputTitulo.value);  
+        listaTarefas.push(inputTitulo.val());  
 
-        const li = $(`<li >${inputTitulo.value}</li>`);
-        $(li).appendTo(listaUl);      
+        const li = $(`<li >${inputTitulo.val()}</li>`);
+        $(li).appendTo(listaUl);    
+        
+        listaTarefas.val("");
+        
     });
+    
 
 
 
