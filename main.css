@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #b2393e;
+    color: #fff;
+    border-bottom: 10px solid #53242c ;
+}
+body{
+    background-color: #c8c6b1;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: auto;
+
+}
+.container2{
+    box-shadow: 10px 5px 5px black;
+    background-color: #737955;
+    border: 2px solid #d5e29d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 600px;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+form{
+    display:flex;
+    justify-content: space-around;    
+}
+
+
+ul{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    width: 300px;
+    text-decoration:none;
+}
+
+.container3{
+
+    padding: 20px;    
+    margin-top: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+table{
+    width: 400px;
+}
+button{
+    font-size: 16px;
+    background-color: #c4661f;
+    border: 2px solid #e27624;
+    border-radius: 5px;
+}
+button:hover{
+    border: 2px solid #c4661f;
+    background-color:#e27624;
+}
+input{
+    border: 2px solid #c2cc92 ;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 18px;
+    outline:none;
+}
+p{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #d3d8c4;
+    margin-bottom:50px;
+    font-size: 40px;
+    
+}
+
+.li-line-through {
+    text-decoration: line-through;
+}
+/* ====================================================================================== */
+.titan-one-regular {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
